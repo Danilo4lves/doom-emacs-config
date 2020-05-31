@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# contributor: Danilo Alves <danilovieiraalves@hotmail.com>
+# name: React Unitary Testing
+# key: test
+# --
+// Dependencies
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+// Component
+import ${1:componentName} from './';
+
+describe ('Testing <$1 />', () => {
+    test('should render a default', () => {
+        const tree = renderer
+            .create(<$1 />
+        )
+    .toJSON();
+
+    expect(tree).toMatchSnapshot();
+    });
+});

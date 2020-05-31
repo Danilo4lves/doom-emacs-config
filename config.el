@@ -4,6 +4,7 @@
 ;; sync' after modifying this file!
 
 ;; Global configuration
+(setq tab-width 2)
 (setq user-full-name "Danilo Alves"
       user-mail-address "danilovieiraalves@hotmail.com")
 

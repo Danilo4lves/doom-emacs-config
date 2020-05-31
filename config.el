@@ -5,6 +5,7 @@
 
 ;; Global configuration
 (setq tab-width 2)
+(setq indent-tabs-mode t)
 (setq user-full-name "Danilo Alves"
       user-mail-address "danilovieiraalves@hotmail.com")
 

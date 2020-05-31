@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Danilo Alves <danilovieiraalves@hotmail.com>
+# name: CSS Measure
+# key: measure
+# --
+getMeasureFromGridSystem(GridBase.x${1:literalPart})

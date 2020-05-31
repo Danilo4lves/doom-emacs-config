@@ -3,13 +3,12 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-;; Global binding
-(evil-define-key 'normal global-map (kbd ":") 'evil-command-window-ex)
-
-;; Some functionality uses this to identify you, e.g. GPG configuration, email
-;; clients, file templates and snippets.
+;; Global configuration
 (setq user-full-name "Danilo Alves"
       user-mail-address "danilovieiraalves@hotmail.com")
+
+;;; Key bindings
+(evil-define-key 'normal global-map (kbd ":") 'evil-command-window-ex)
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
